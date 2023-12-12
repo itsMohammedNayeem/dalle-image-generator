@@ -1,8 +1,8 @@
 "use client";
 
+import fetchImages from "@/lib/fetchImages";
 import Image from "next/image";
 import useSWR from "swr";
-import fetchImages from "../lib/fetchImages";
 
 type ImageType = {
   name: string;

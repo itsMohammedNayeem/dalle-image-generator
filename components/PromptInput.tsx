@@ -2,9 +2,9 @@
 
 import { FormEvent, useState } from "react";
 import useSWR from "swr";
-import fetchImages from "../lib/fetchImages";
 import toast from "react-hot-toast";
-import fetchSuggestionFromChatGPT from "../lib/fetchSuggestionFromChatGPT";
+import fetchImages from "@/lib/fetchImages";
+import fetchSuggestionFromChatGPT from "@/lib/fetchSuggestionFromChatGPT";
 
 function PromptInput() {
   const [input, setInput] = useState("");
