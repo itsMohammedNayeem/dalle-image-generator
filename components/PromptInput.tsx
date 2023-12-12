@@ -24,7 +24,6 @@ function PromptInput() {
 
   const submitPrompt = async (useSuggestion?: boolean) => {
     const inputPrompt = input;
-    console.log(inputPrompt);
     setInput("");
 
     const notificationPrompt = inputPrompt || suggestion;
