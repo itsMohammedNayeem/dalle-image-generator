@@ -1,6 +1,6 @@
 export async function GET(request: Request) {
   const response = await fetch(
-    "https://sonnytestapp.azurewebsites.net/api/getImages",
+    "https://dalle-image-generator-app.azurewebsites.net/api/getimages",
     {
       cache: "no-store",
     }
